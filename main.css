@@ -1,0 +1,48 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background-color: #000000;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+
+.task_title {
+  flex-direction: column;
+}
+.card.mb-4 {
+  margin-top: 20px;
+}
+.list-group-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Добавить выравнивание влево для дочерних элементов */
+}
+
+.task-title {
+  margin-bottom: 17px; /* Добавить отступ между элементами .task-title */
+}
+
+.none {
+  display: none !important;
+}
+
+.btn-action img {
+  pointer-events: none;
+}
+
+.task-title--done {
+  text-decoration: line-through;
+  color: black;
+  background-color: grey;
+  font-weight: bold;
+  transition: 0.2s;
+  
+}
+
+
